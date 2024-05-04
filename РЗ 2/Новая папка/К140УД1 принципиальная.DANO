@@ -1,0 +1,213 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                   Dynamic AC of Ê140ÓÄ1 ïðèíöèïèàëüíàÿ                   ***
+***                           11.12.2022 14:30:46                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+AC Voltages at Frequency=1e+006 (Mag, Degrees)
+==============================================
+Node                Voltage  Node                Voltage 
+1                         1  2                   1,-180° 
+3                         1  4        362.823m,-156.921° 
+5        362.823m,-156.921°  6                         1 
+7            2.174,162.615°  X1.1       940.017m,-4.653° 
+X1.3        979.467m,-1.21°  X1.4       961.625m,-2.819° 
+X1.6     650.422m,-178.329°  X1.7     652.391m,-178.331° 
+X1.9       944.377m,-4.127°  X1.10     835.175m,-21.105° 
+X1.11    661.504m,-178.371°  X1.13         2.181,162.69° 
+X1.14    666.069m,-178.639°  X1.16      967.002m,-2.416° 
+X1.19        1.096,175.249° 
+
+
+AC values for Diode (Mag, Degrees)
+==================================
+Instance:                     X1.D1
+Using model:            X1.$GENERIC
+
+Power AC Terms:
+PD                         913.352p
+PS                      22.71n,-90°
+
+AC Pin Currents:
+Id                15.079n,-110.664°
+
+Device Variables:
+area                         1.000 
+ic                           0.000 
+
+
+
+AC values for Bipolar Junction Transistors NPN (Mag, Degrees)
+=============================================================
+Instance:                     X1.Q1                  X1.Q2                  X1.Q3
+Using model:          X1.$GENERIC_N          X1.$GENERIC_N          X1.$GENERIC_N
+
+Power AC Terms:
+PG                 90.406n,116.412°       138.745n,19.074°      23.236u,-172.661°
+PD                 10.885u,-0.557f°          4.228u,0.74f°    5.715u,-1.296E-019°
+PS                    148.858n,-90°          112.423n,-90°           23.671n,-90°
+
+AC Pin Currents:
+Ib                  201.687u,49.08°        156.733u,48.36°         1.796u,70.167°
+Ic               228.403u,-127.188°     110.825u,-124.603°        35.443u,-5.908°
+Ie                  30.151u,78.619°      48.674u,-147.838°       35.918u,176.875°
+Is                                0                      0                      0
+
+Device Variables:
+area                         1.000                  1.000                  1.000 
+vbe                          0.000                  0.000                  0.000 
+vce                          0.000                  0.000                  0.000 
+
+
+Instance:                     X1.Q4                  X1.Q5                  X1.Q6
+Using model:          X1.$GENERIC_N          X1.$GENERIC_N          X1.$GENERIC_N
+
+Power AC Terms:
+PG                 34.268u,-11.863°       18.477u,179.484°       420.356n,-8.785°
+PD                 64.602u,-0.003f°       101.593u,-0.09f°        1.099u,-0.022f°
+PS                    710.091n,-90°            1.011u,-90°           36.454n,-90°
+
+AC Pin Currents:
+Ib                 111.685u,55.347°       232.998u,52.767°       55.341u,808.94m°
+Ic                 676.517u,37.022°     853.419u,-124.467°        68.278u,-6.408°
+Ie               783.326u,-140.409°       620.795u,56.571°      123.376u,176.822°
+Is                                0                      0                      0
+
+Device Variables:
+area                         1.000                  1.000                  1.000 
+vbe                          0.000                  0.000                  0.000 
+vce                          0.000                  0.000                  0.000 
+
+
+Instance:                     X1.Q7                  X1.Q8                  X1.Q9
+Using model:          X1.$GENERIC_N          X1.$GENERIC_N          X1.$GENERIC_N
+
+Power AC Terms:
+PG                  27.772m,-8.587°       171.316u,-7.773°       964.065u,14.082°
+PD                 38.531m,-2.585f°       10.545u,-3.461f°      343.475u,-0.001f°
+PS                    429.927u,-90°          103.463n,-90°          227.639n,-90°
+
+AC Pin Currents:
+Ib                 927.991u,55.386°        10.901u,55.126°      29.349u,-138.643°
+Ic                 17.322m,-15.022°      205.713u,-16.872°      405.185u,146.435°
+Ie                 17.655m,167.816°      209.339u,165.967°      413.791u,-29.638°
+Is                                0                      0                      0
+
+Device Variables:
+area                         1.000                  1.000                  1.000 
+vbe                          0.000                  0.000                  0.000 
+vce                          0.000                  0.000                  0.000 
+
+
+
+AC values for Resistor (Mag, Degrees)
+=====================================
+Instance:                        R13                  X1.R1                  X1.R2
+
+Power AC Terms:
+PD                    5.95m,-2.088f°      105.702n,-3.587f°                 6.257u
+
+AC Pin Currents:
+Ir                  17.467m,167.949°       4.598u,-129.464°       35.918u,176.875°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                      X1.R3                  X1.R4                  X1.R5
+
+Power AC Terms:
+PD                   3.745n,-3.164f°               144.746n               123.868u
+
+AC Pin Currents:
+Ir                865.417n,-131.028°         5.463u,50.288°      262.327u,175.873°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                      X1.R6                  X1.R7                  X1.R8
+
+Power AC Terms:
+PD                  42.305u,-0.287f°                 20.93u        13.921u,3.486f°
+
+AC Pin Currents:
+Ir                130.084u,-178.329°      123.376u,176.822°      74.622u,-126.293°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                      X1.R9                 X1.R10                 X1.R11
+
+Power AC Terms:
+PD                          184.109u                46.014u               233.719u
+
+AC Pin Currents:
+Ir                  191.89u,155.652°      209.339u,165.967°      413.791u,150.362°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X1.R12
+
+Power AC Terms:
+PD                           14.215u
+
+AC Pin Currents:
+Ir                 219.514u,-44.502°
+
+Device Variables:
+tc1                           0.000 
+tc2                           0.000 
+
+
+
+AC values for Capacitor (Mag, Degrees)
+======================================
+Instance:                         C1
+
+Power AC Terms:
+PS                      16.187f,-90°
+
+AC Pin Currents:
+Ic                  17.468m,-12.052°
+
+Device Variables:
+ic                            0.000 
+
+
+
+AC values for SPICE Source (Mag, Degrees)
+=========================================
+Instance:                        V1                     V2                     V3
+
+Power AC Terms:
+PG                     8.7m,12.595°          8.72m,11.583°       100.843u,-49.08°
+
+AC Pin Currents:
+ISource            17.399m,167.405°        17.44m,168.417°      201.687u,-130.92°
+
+
+Instance:                        V4
+
+Power AC Terms:
+PG                  78.366u,-48.36°
+
+AC Pin Currents:
+ISource           156.733u,-131.64°
+
+

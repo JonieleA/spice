@@ -1,0 +1,9 @@
+
+* узлы подключаются в порядке: коллектор <C>, база <B>, эмиттер <E>
+Q1 Col Bas 0 2N3439
+V1 Col 0 3
+I1 0 Bas 5
+.DC DEC I1 1N 0.1 100 V1 LIST 5
+.TEMP 27
+.PLOT DC ABS(IC(Q1)/IB(Q1))
+;$SpiceType=AMBIGUOUS

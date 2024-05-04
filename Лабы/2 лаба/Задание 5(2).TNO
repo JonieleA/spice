@@ -1,0 +1,32 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                    Transient Analysis of Задание 5(2)                    ***
+***                           29.09.2022 22:41:12                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           150U
+Output Start Time (tstart) 0
+Maximum Time Step          1U
+Number of Points           1001
+Temperature                List 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+

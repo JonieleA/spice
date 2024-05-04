@@ -1,0 +1,27 @@
+Title stattement
+*M<name> <drain> <gate> <source> <bulk> <model name>
+M1 drain gate 0 0 $GENERIC_N1
+.model $GENERIC_N1 NMOS(VTO=1 UO=600 VMAX=2E5 L=2.5u LAMBDA=25m CGSO=1n CGDO=1n)
+R1 1 drain 1k 
+C1 drain gate 10p
+R2 1 gate 80k
+C2 gate plus 1u
+R3 gate 0 40k
+V2 plus 0 DC 0 AC 1 0 SIN(0 5 1G 0 0 0) 
+V1 1 0 10 
+
+M2 drain2 gate2 0 0 $GENERIC_N1
+R1 11 drain2 1k
+*C1 drain gate 10p
+R2 11 gate2 80k
+C2 gate2 plus2 1u
+R3 gate2 0 40k
+V22 plus2 0 DC 0 AC 1 0 SIN(0 5 1G 0 0 0) 
+V11 11 0 10 
+
+.AC DEC 125 10 1G
+.TEMP 27
+.PLOT AC (V(DRAIN)/V(V2)) (V(DRAIN2)/V(V2))
+
+
+;$SpiceType=AMBIGUOUS

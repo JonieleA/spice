@@ -1,0 +1,8 @@
+Title stattement
+D1 1 0 MyDiod
+.model MyDiod D (EG=1.1 VJ=0.75 IS=8n RS=0.5 N=1.5 ISR=11u NR=1.3 IKF=0.15m RL=5g M=0.5 BV=50 IBV=0.1n NBV=1.5 CJO=35p FC=0.5 TT=30n)
+V1 1 0 5
+.DC LIN TEMP -50 50 1 V1 LIST -25 -12.5
+.TEMP 27
+.PLOT DC I(D1)
+;$SpiceType=AMBIGUOUS

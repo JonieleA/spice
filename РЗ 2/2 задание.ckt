@@ -1,0 +1,25 @@
+
+.subckt k140ud1 In1 In2 Out
+*Входные параметры
+V1 In2 In21 DC 660u
+I1 In21 0 DC 9.8u
+I2 0 In1 DC 9.8u
+R1 0 In1 10.1k
+R2 In21 0 10.1k
+R3 In1 In21 1.31k
+*Частотная зависимость
+G1 1 0 VALUE={2411/39*V(In1,In21)}
+R4 1 0 39
+C1 1 0 1500
+*Выходные параметры
+G2 Out 0 VALUE={V(1,0)/5}
+R5 Out 0 5
+*Диодный ограничитель на выходе
+V2 2 0 DC 9.3
+V3 0 3 DC 9.3
+D1 Out 2 $GENERIC
+D2 3 Out $GENERIC
+.ENDS
+
+
+;$SpiceType=AMBIGUOUS

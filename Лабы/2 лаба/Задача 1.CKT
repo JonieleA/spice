@@ -1,0 +1,7 @@
+
+R1 1 0 2500
+V1 1 0 DC 5
+.DC LIN V1 0 5 0.01
+.TEMP 27
+.PLOT DC I(R1)
+;$SpiceType=AMBIGUOUS

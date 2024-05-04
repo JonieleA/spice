@@ -1,0 +1,10 @@
+Title stattement
+D1 2 0 MyDiod
+R1 1 2 1k
+.model MyDiod D (EG=1.1 VJ=0.75 IS=8n RS=0.5 N=1.5 ISR=11u NR=1.3 IKF=0.15m RL=5g M=0.5 BV=50 IBV=0.1n NBV=1.5 CJO=35p FC=0.5 TT=30n)
+V1  1 0 PULSE(0 0.5 100n 1p 1p 0.2u 0.5u)
+.TRAN 4e-008 2U 0 
+.TEMP 27
+.STEP  D1 LIST 35P 70p 175p  ;$MCE CJO;Transient Analysis
+.PLOT TRAN V(2) V(1)
+;$SpiceType=AMBIGUOUS

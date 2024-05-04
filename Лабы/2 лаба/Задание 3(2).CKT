@@ -1,0 +1,8 @@
+
+V1 1 0 PULSE(0 5 0.5u 1n 1n 0.2u 0.5u)
+R1 2 1 4500
+C1 0 2 10p
+.TRAN 3.003e-009 3U 0 
+.TEMP 27
+.PLOT TRAN V(1) V(2)
+;$SpiceType=AMBIGUOUS

@@ -1,0 +1,12 @@
+Title stattement
+V1 1 0 4
+V2 2 0 Pulse 0 2 0 0 0 200n 1u
+V3 3 0 Pulse 0 2 0 0 0 200n 1u
+M1 1 1 out 0 $GENERIC_N
+.model $GENERIC_N NMOS(VTO=1 UO=600 VMAX=2E5 L=2.5u LAMBDA=20m KP=25u)
+M2 out 2 0 0 $GENERIC_N
+M3 out 3 0 0 $GENERIC_N
+.TRAN 2e-008 1U 0 
+.TEMP 27
+.PLOT TRAN V(OUT) V(V2)
+;$SpiceType=AMBIGUOUS

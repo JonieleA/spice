@@ -1,0 +1,29 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                         AC Analysis of circuit1                          ***
+***                           05.11.2022 17:28:32                            ***
+********************************************************************************
+Limits
+======
+Frequency Range          Log 1G,10
+Number of Points         1001
+Temperature              List 27
+Maximum Change %         5
+Noise Input              NONE
+Noise Output             2
+Run Options              Normal
+State Variables          Zero
+Operating Point          On
+Auto Scale Ranges        On
+Accumulate Plots         Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+

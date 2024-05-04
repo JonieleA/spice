@@ -1,0 +1,27 @@
+[Main]
+FileType=CMP
+Version=10.00
+Program=Micro-Cap
+Count=1
+
+[group]
+Name="Macros"
+
+[compdef]
+Name=К140УД1 принципиальная
+Definition=Macro
+Shape=Opamp7
+Mask=128
+Used=6
+Label Offset=24,24,-24,24
+PinCnt=7
+Pin="10",a,0,0
+Pin="Pin1",a,2,7,-28,13
+Pin="9",a,0,6,-4,-2
+Pin="Pin2",a,3,7,-18,26
+Pin="Pin3",a,4,-1,-6,-12
+Pin="Pin4",a,9,3,-12,-12
+Pin="Pin5",a,4,7
+
+[group]
+End="Macros"
